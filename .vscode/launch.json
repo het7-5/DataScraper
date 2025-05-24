@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Crawl with scrapy",
+            "type": "python",
+            "request": "launch",
+            "module": "scrapy",
+            "cwd": "${workspaceFolder}/datascraper",
+            "args": [
+                "crawl",
+                "datascraper"
+            ],
+            "console": "integratedTerminal"
+        }
+        
+    ]
+}
